@@ -88,11 +88,11 @@ No test are available
 - Twitter:[@tasnimchy96](https://twitter.com/tasnimchy96)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tasnim-ahmed-chowdhury-b4504625b)
 
-:bust_in_silhouette: ****
+:bust_in_silhouette: **Raphael Miyoyo**
 
-- GitHub: [@Github]()
-- Twitter: [@Twitter]()
-- LinkedIn: [@LinkedIn]()
+- GitHub: [@Github](https://github.com/rmiyoyo)
+- Twitter: [@Twitter](https://twitter.com/r_miyoyo)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/Raphael-Miyoyo)
 
 ## :telescope: Future Features
 
