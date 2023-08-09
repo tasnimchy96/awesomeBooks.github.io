@@ -25,6 +25,7 @@ function displayBooks() {
     bookList.appendChild(li);
   });
 }
+
 function addBook(event) {
   event.preventDefault();
   const title = document.getElementById('title').ariaValueMax;
