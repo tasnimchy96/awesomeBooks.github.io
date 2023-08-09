@@ -28,11 +28,12 @@ function displayBooks() {
 
 function addBook(event) {
   event.preventDefault();
-  const title = document.getElementById('title').ariaValueMax;
-  books.push({title, author});
+  const title = document.getElementById('title').value;
+  const author = document.getElementById('author').value;
+  books.push({ title, author });
   localStorage.setItem('books', JSON.stringify(books));
   displayBooks();
-  event.target.reset()
+  event.target.reset();
 }
 
 document.getElementById('addForm').addEventListener('submit', addBook);
