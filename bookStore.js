@@ -7,6 +7,22 @@ class BookCollection {
     this.displayBooks();
   }
 
+addBook(event) {
+  event.preventDefault();
+  const title = document.getElementById('title').value;
+  const author = document.getElementById('author').value;
+  this.books.push({ title, author });
+  localStorage.setItem('books', JSON.stringify(this.books));
+  this.displayBooks();
+  event.target.reset();
+}
+
+removeBook(index) {
+  this.books = this.books.filter((book, i) => i !== index);
+  localStorage.setItem('books', JSON.stringify(this.books));
+  this.displayBooks();
+}
+
   displayBooks() {
     this.bookList.innerHTML = '';
     this.books.forEach((book, index) => {
