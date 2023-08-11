@@ -5,13 +5,13 @@ function getOrdinalSuffix(day) {
   }
   switch (day % 10) {
     case 1:
-    return 'st';
+      return 'st';
     case 2:
-    return 'nd';
+      return 'nd';
     case 3:
-    return 'rd';
+      return 'rd';
     default:
-    return 'th';
+      return 'th';
   }
 }
 
@@ -19,7 +19,7 @@ function getOrdinalSuffix(day) {
 function padZero(num) {
   return num < 10 ? `0${num}` : num;
 }
-  
+
 function displayDateTime() {
   const now = new Date();
   const month = now.toLocaleString('default', { month: 'long' });
@@ -35,7 +35,7 @@ function displayDateTime() {
   const dateTimeStr = `${dateStr}, ${timeStr}`;
   document.getElementById('date-time').textContent = dateTimeStr;
 }
-  
+
 // call the function once to display the initial date and time
 displayDateTime();
 // call the function every second to update the date and time in real time
